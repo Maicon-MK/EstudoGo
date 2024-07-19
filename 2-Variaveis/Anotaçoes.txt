@@ -1,0 +1,12 @@
+Existe dois tipos declara a variavel:
+
+
+A primeira e deixando o tipo dela explicita e a segunda implicito;
+ex:
+
+explicit: var variavel1 string = "var 1"
+
+implicito: variavel1 :="var 1" 
+
+O go nao deixa voce criar uma variavel e nao usar, o codigo nao compila. 
+a mesma coisa vale para import  utilizando o comando ****go mod tidy****, ele vai remover todas as dependencias que nao estao sendo usadas. 

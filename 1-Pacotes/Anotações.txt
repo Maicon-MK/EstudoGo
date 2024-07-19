@@ -1,0 +1,33 @@
+Package main = Referencia que esse arquivo faz parte do pacote main
+
+import (
+	"fmt"
+	"math"
+)
+
+Funçao main é a funcao principal do programa
+func main() {
+	fmt.Println(math.Pi)
+}
+
+Pacote = Um grupo de arquivo que que esta dentro do mesmo diretorio. Esses arquivos 
+esses arquivos sao compilados juntos.
+
+EX: Se uma variavel for declarada dentro de um aquivo no diretorio, essa variavel 
+estarar visivel para todos os arquivos dentro do pacote.
+
+Essa regra tambem e valida para:
+Funçoes 
+Constantes 
+
+Quando e necessario mais de um pacote criamos um modulo;
+
+Modulo = Um conjunto de pacote que compõem o projeto. Interno/Externo
+
+***go build**** = compilar o pacote, tornando ele um excutavel (.exe) 
+
+Se a func começar com letra minuscula ela so vai ser visivel dentro pacote que esta.
+Se a func começar com Letra maiuscula ai ela poderar ser visivel dentro de outros pacotes.
+
+Por padrao do go, voce tem uma função que esta sendo exportada, voce ter um comentario em cima dela 
+explicando a sua funcionalidade.

@@ -1,0 +1,14 @@
+Tipos basicos numeros:
+
+Existe dois tipos de numeros basicos: 
+4 tipos de inteiros(int) **int8**,**int16**, **int32**, **int64**.
+
+A diferença dos tipos int e a quantidade de bits que ocupa.
+
+
+Reais: float
+2 tips de float  **float32**,**float64**
+suporta numeros quebrados pontos.
+
+
+
